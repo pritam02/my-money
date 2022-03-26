@@ -38,7 +38,7 @@ $ cd my-money
 
 Scripts are provided inside the parent folder to execute the code. 
 
-Use `run.sh` if you are Linux/Unix/macOS Operating systems and `run.bat` if you are on Windows.
+Use `run.sh` if you are on Linux/Unix/macOS Operating systems and `run.bat` if you are on Windows.
 
 * For Linux/Unix/macOS
 ```sh
@@ -61,10 +61,9 @@ Internally both the scripts run the following commands
 
  # Execute the unit tests
 
- `mvn clean test` will execute the unit test cases.
+ `mvn clean test` will execute the unit test cases and generate the unit test coverage report.
 
 ```sh
 $ mvn clean test
-```
-
+``` 
 * To check the Unit Test Case coverage, we can open the index.html inside `jacoco-reports` directory in any browser of our choice
