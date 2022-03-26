@@ -56,7 +56,7 @@ Internally both the scripts run the following commands
  * `java -jar target/geektrust.jar sample_input/input1.txt` - This will execute the jar file passing in the sample input file as the command line argument
  
  * You can also create your own custom text file for providing inputs. 
- * You need to change the path of the input file in `run.sh` script if you want to use your own custom input files.
+ * You need to change the path of the input file in `run.sh` or `run.bat` script if you want to use your own custom input files.
 
 
  # Execute the unit tests
@@ -66,4 +66,4 @@ Internally both the scripts run the following commands
 ```sh
 $ mvn clean test
 ``` 
-* To check the Unit Test Case coverage, we can open the index.html inside `jacoco-reports` directory in any browser of our choice
+* To check the unit test case coverage, you can open the index.html inside `jacoco-reports` directory in any browser of your choice.
