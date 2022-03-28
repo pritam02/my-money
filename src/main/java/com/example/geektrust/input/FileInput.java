@@ -50,7 +50,6 @@ public class FileInput {
         String input = reader.readLine();
         Command command = null;
         while (input != null) {
-            System.out.println(input);
             try {
                 command = new Command(input);
             } catch (Exception e) {
